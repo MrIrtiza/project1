@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+
+    <style>
+input{
+    width: 300px;
+    height: 70px;
+
+}
+body{
+    background-color: rgb(117, 110, 110);
+}
+button{
+    width: 90px;
+    height: 70px;
+background-color: rgb(56, 53, 53);
+}
+h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+<a href="index.html">Login Page</a>
+      </header>
+    <main>
+  <center> <h3>Input</h3>
+
+  <input type="text" id="input" placeholder=" Add City" >
+  <button  id="clear1">Clear</button>
+<br> <br>
+                    <button class="btn  mb-4" onclick="PrintCity()">Print All Cites</button>
+                    <button class="btn  mb-4" onclick="AddCity()">Add Your City In List</button>
+          
+
+ 
+            <h3>Output</h3>
+      
+                
+                <div id="Output"></div>
+
+                <button type="button"  id="clear" onclick="clear()">Clear</button> 
+          
+            </center>
+       
+    </main>
+    <footer></footer>
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
